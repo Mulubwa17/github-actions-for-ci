@@ -36,5 +36,6 @@ jobs:
       run: |
         npm install -f
         npm test -f
+      
       env:
         CI: true
